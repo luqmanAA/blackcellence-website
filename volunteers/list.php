@@ -12,7 +12,7 @@ $team = [
         "role" => "Senior Community Outreach Advisor",
         "bio" => "Vinolia Apakoh is the CEO and Founder of BlackCellence Network. She is a trailblazer, a passionate community champion who strongly believes in supporting and contributing to the Saskatchewan community. At an early age she learnt the concept of community involvement, a mindset and inspiration instilled in her from her parents about giving back to society.",
         "email" => "info@blackcellencenetwork.com",
-        "image" => "/assets/muna-de-ciman.jpg",
+        "image" => "/assets/muna-de-ciman.png",
     ],
     "eugene-apakoh" => [
         "name" => "Eugene Apakoh",
@@ -26,7 +26,7 @@ $team = [
         "role" => "Event Director",
         "bio" => "Vinolia Apakoh is the CEO and Founder of BlackCellence Network. She is a trailblazer, a passionate community champion who strongly believes in supporting and contributing to the Saskatchewan community. At an early age she learnt the concept of community involvement, a mindset and inspiration instilled in her from her parents about giving back to society.",
         "email" => "info@blackcellencenetwork.com",
-        "image" => "/assets/timibra-david.jpg",
+        "image" => "/assets/timibra-david.png",
     ],
     "rodlphe-adou" => [
         "name" => "Rodolphe Adou",

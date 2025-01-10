@@ -112,7 +112,7 @@ $programs = [
                     <li><strong>Collaborations with Local Organizations</strong>: Partner with churches, schools, and community organizations to disseminate health information and resources effectively.</li>
                 </ul>
 
-                <p>The program aims to summarize the importance of collective effort and the potential for growth through education, empowerment, and collaboration within the Black community. Encourage ongoing dialogue and action to foster a brighter future.</p>
+                <p>This program aims to summarize the vital role of health education in addressing disparities and improving health outcomes in the Black community. Encourage ongoing collaboration and advocacy to create a culture of health and wellness, empowering individuals to make informed decisions about their health.</p>
             "
     ],
 

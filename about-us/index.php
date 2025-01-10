@@ -6,7 +6,7 @@
     <div class="page-title">
             <div class="w-layout-blockcontainer container w-container">
                 <div class="sub-title">
-                    <img src="assets/sub-title.svg" loading="lazy" alt="Icon"/>
+                    <img src="/assets/sub-title.svg" loading="lazy" alt="Icon"/>
                     <div>Our Story</div>
                 </div>
                 <h1 class="main-title">About us</h1>
@@ -28,12 +28,12 @@
             <div class="w-layout-blockcontainer container w-container">
                 <div class="creating-wrap">
                     <div class="creating-img">
-                        <img src="assets/commitment.png" loading="lazy" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 46vw" srcset="assets/commitment.png 500w, assets/commitment.png 800w, assets/commitment.png 1080w, assets/commitment.png 1236w" alt="Commitment Image" class="creating-image"/>
+                        <img src="/assets/commitment.png" loading="lazy" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 46vw" srcset="/assets/commitment.png 500w, /assets/commitment.png 800w, /assets/commitment.png 1080w, /assets/commitment.png 1236w" alt="Commitment Image" class="creating-image"/>
                     </div>
                     <div class="creating-right">
                         <div>
                             <div class="sub-title">
-                                <img src="assets/sub-title.svg" loading="lazy" alt="Icon"/>
+                                <img src="/assets/sub-title.svg" loading="lazy" alt="Icon"/>
                                 <div>Creating Change</div>
                             </div>
                             <h2 class="title">Our Goals</h2>

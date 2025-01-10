@@ -5,7 +5,7 @@
         <div class="page-title">
             <div class="w-layout-blockcontainer container w-container">
                 <div class="sub-title">
-                    <img src="assets/sub-title.svg" loading="lazy" alt="Icon"/>
+                    <img src="/assets/sub-title.svg" loading="lazy" alt="Icon"/>
                     <div>Contact us</div>
                 </div>
                 <h1 class="main-title">Get in touch</h1>
@@ -44,7 +44,7 @@
                                     
                                     <div class="contact-info-block">
                                         <div class="contact-label">
-                                            <img src="assets/ic-mail-black.svg" loading="lazy" alt="Icon"/>
+                                            <img src="/assets/ic-mail-black.svg" loading="lazy" alt="Icon"/>
                                             <div>Email:</div>
                                         </div>
                                         <a href="mailto:info@blackcellencenetwork.com" class="plain-link">info@blackcellencenetwork.com</a>
@@ -52,10 +52,10 @@
                                 </div>
                                 <div class="contact-social">
                                     <a href="https://www.instagram.com/blackcellencenetwork" target="_blank" class="social w-inline-block">
-                                        <img src="assets/ic-insta.svg" loading="lazy" alt="Social Icon"/>
+                                        <img src="/assets/ic-insta.svg" loading="lazy" alt="Social Icon"/>
                                     </a>
                                     <a href="https://facebook.com/blackcellencenetwork" target="_blank" class="social w-inline-block">
-                                        <img src="assets/ic-facebook.svg" loading="lazy" alt="Social Icon"/>
+                                        <img src="/assets/ic-facebook.svg" loading="lazy" alt="Social Icon"/>
                                     </a>
                                     </a>
                                 </div>

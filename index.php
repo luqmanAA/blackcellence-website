@@ -92,87 +92,9 @@
                     </div>
                 </div>
             </section>
-            <section class="causes">
-                <div class="w-layout-blockcontainer container w-container">
-                    <div class="section-title">
-                        <div class="sub-title">
-                            <img src="/assets/sub-title.svg" loading="lazy" alt="Icon"/>
-                            <div>Causes</div>
-                        </div>
-                        <h2 class="title">Our Programs</h2>
-                    </div>
-                    <div class="w-dyn-list">
-                        <div role="list" class="causes-list w-dyn-items">
-                            <div role="listitem" class="causis-item w-dyn-item">
-                                <a data-w-id="5e252c95-0063-16b2-f88f-f8d1faa4e4df" href="#" class="causes-link w-inline-block">
-                                    <div class="cause-img">
-                                        <img src="/assets/programs-01.png"lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="Cause Image" sizes="(max-width: 479px) 100vw, (max-width: 991px) 46vw, 31vw" srcset="/assets/programs-01.png 500w, assets/programs-01.png 800w, assets/programs-01.png 824w" class="cause-image"/>
-                                    </div>
-                                    <div class="cause-data">
-                                        <h4 class="cause-title">Building Financial Futures: Empowering Our Community Through Financial Literacy</h4>
-                                        <div class="cause-info">
-                                            <div class="cause-bottom">
-                                                <div class="cause-category">
-                                                    <img src="/assets/love.svg" loading="lazy" width="14" alt="Icon"/>
-                                                    <div>Community</div>
-                                                </div>
-                                                <div class="secondary-btn">
-                                                    <div>View Program</div>
-                                                    <img src="/assets/arrow.svg" loading="lazy" style="-webkit-transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="Arrow" class="arrow"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div role="listitem" class="causis-item w-dyn-item">
-                                <a data-w-id="5e252c95-0063-16b2-f88f-f8d1faa4e4df" href="#" class="causes-link w-inline-block">
-                                    <div class="cause-img">
-                                        <img src="/assets/programs-02.png" loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="Cause Image" sizes="(max-width: 479px) 100vw, (max-width: 991px) 46vw, 31vw" srcset="/assets/programs-02.png 500w, assets/programs-02.png 800w, assets/programs-02.png 824w" class="cause-image"/>
-                                    </div>
-                                    <div class="cause-data">
-                                        <h4 class="cause-title">Empowerment Through Education: Strategies for Growth and Advancement in the Black Community.</h4>
-                                        <div class="cause-info">
-                                            <div class="cause-bottom">
-                                                <div class="cause-category">
-                                                    <img src="/assets/love.svg" loading="lazy" width="14" alt="Icon"/>
-                                                    <div>Education</div>
-                                                </div>
-                                                <div class="secondary-btn">
-                                                    <div>View Program</div>
-                                                    <img src="/assets/arrow.svg" loading="lazy" style="-webkit-transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="Arrow" class="arrow"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div role="listitem" class="causis-item w-dyn-item">
-                                <a data-w-id="5e252c95-0063-16b2-f88f-f8d1faa4e4df" href="#" class="causes-link w-inline-block">
-                                    <div class="cause-img">
-                                        <img src="/assets/programs-03.png" loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="Cause Image" sizes="(max-width: 479px) 100vw, (max-width: 991px) 46vw, 31vw" srcset="/assets/programs-03.png 500w, assets/programs-03.png 800w, assets/programs-03.png 824w" class="cause-image"/>
-                                    </div>
-                                    <div class="cause-data">
-                                        <h4 class="cause-title">Health Education as a Catalyst for Wellness in the Black Community </br></br></h4>
-                                        <div class="cause-info">
-                                            <div class="cause-bottom">
-                                                <div class="cause-category">
-                                                    <img src="/assets/love.svg" loading="lazy" width="14" alt="Icon"/>
-                                                    <div>Healthcare</div>
-                                                </div>
-                                                <div class="secondary-btn">
-                                                    <div>View Program</div>
-                                                    <img src="/assets/arrow.svg" loading="lazy" style="-webkit-transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="Arrow" class="arrow"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+
+            <?php include 'includes/program-block.php' ?>
+
             <section class="creating">
                 <div class="w-layout-blockcontainer container w-container">
                     <div class="creating-wrap">

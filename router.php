@@ -18,5 +18,11 @@ if (preg_match('/^blogs\/([a-zA-Z0-9-]+)$/', $request_uri, $matches)) {
     exit;
 }
 
+if (preg_match('/^programs\/([a-zA-Z0-9-]+)$/', $request_uri, $matches)) {
+    $_GET['program'] = $matches[1];
+    include "programs/program-template.php";
+    exit;
+}
+
 
 return false;

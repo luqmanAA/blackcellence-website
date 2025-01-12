@@ -3,7 +3,7 @@ $programs = [
     "building-financial-futures-empowering-our-community-through-financial-literacy" => [
         "title" => "Building Financial Futures: Empowering Our Community Through Financial Literacy",
         "category"=> "Community",
-        "image"=> "/assets/programs-01.png",
+        "image"=> "/assets/education.png",
         "body" => "
                 <h3>Overview</h3>
                 <p>This program aims to enhance financial literacy within the community, providing individuals with the knowledge and skills necessary to make informed financial decisions. By offering workshops, resources, and support, we aim to empower residents to take control of their financial futures.</p>
@@ -62,7 +62,7 @@ $programs = [
     "empowerment-through-education-strategies-for-growth-and-advancement-in-the-black-community" => [
         "title" => "Empowerment Through Education: Strategies for Growth and Advancement in the Black Community",
         "category"=> "Education",
-        "image"=> "/assets/programs-01.png",
+        "image"=> "/assets/education.png",
         "body" => "                
                 <h3>Key Points:</h3>
                 <ol>
@@ -90,7 +90,7 @@ $programs = [
     "health-education-as-a-catalyst-for-wellness-in-the-black-community" => [
         "title" => "Health Education as a Catalyst for Wellness in the Black Community",
         "category"=> "Healthcare",
-        "image"=> "/assets/programs-01.png",
+        "image"=> "/assets/health.png",
         "body" => "                
                 <h3>Key Points:</h3>
                 <ol>

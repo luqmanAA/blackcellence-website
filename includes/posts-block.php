@@ -15,7 +15,7 @@
                     <div role="listitem" class="post-item w-dyn-item">
                         <a data-w-id="18536262-339e-c711-eb3d-d1754db27563" href="/blogs/<?php echo $key ?>" class="post-link w-inline-block">
                             <div class="post-img">
-                                <img src="https://cdn.prod.website-files.com/66236bb750d12e7540854b5f/662374689657de5ebfaa0c53_blog-thumb-01.jpg" loading="lazy" alt="Post Image" sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, (max-width: 991px) 47vw, 31vw" srcset="https://cdn.prod.website-files.com/66236bb750d12e7540854b5f/662374689657de5ebfaa0c53_blog-thumb-01-p-500.jpg 500w, https://cdn.prod.website-files.com/66236bb750d12e7540854b5f/662374689657de5ebfaa0c53_blog-thumb-01-p-800.jpg 800w, https://cdn.prod.website-files.com/66236bb750d12e7540854b5f/662374689657de5ebfaa0c53_blog-thumb-01.jpg 832w" class="post-image"/>
+                                <img src="<?php echo $post['image']; ?>" loading="lazy" alt="Post Image" sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, (max-width: 991px) 47vw, 31vw" srcset="<?php echo $post['image']; ?> 500w, <?php echo $post['image']; ?> 800w, <?php echo $post['image']; ?> 832w" class="post-image"/>
                             </div>
                             <div class="post-data">
                                 <div class="post-info">

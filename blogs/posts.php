@@ -4,6 +4,7 @@ $posts = [
         "title" => "Letter from CEO",
         "date"=> "January 6, 2025",
         "category"=> "Diversity & Inclusion",
+        "image"=> "/assets/letter-from-the-ceo.png",
         "body" => "<p>Dear Blackcellence Family,</p>
 
                     <p>I hope this message finds you well. As the founder of Blackcellence Network, I wanted to take a moment to share some exciting news with you—news that reflects the incredible growth and impact we’ve achieved together over the past three years.</p>
@@ -33,6 +34,7 @@ $posts = [
         "title" => "How the Gala Came to Be",
         "date"=> "January 6, 2025",
         "category"=> "Personal Stories",
+        "image"=> "/assets/how-the-gala-came-to-be.png",
         "body" => "<p>It all started with a vision—a dream—conceivhed by Vinolia Apakoh, Founder & CEO of Blackcellence Network. As she settled into the Saskatchewan community with her family, Vinolia noticed that many individuals, like herself, had relocated from their home countries to make a life here. What struck her most was the realization that, regardless of their diverse backgrounds, these people all had unique and remarkable stories to tell. This was especially evident within the Black community.</p>
 
                     <p>Vinolia observed that many individuals were excelling in their professional fields—whether in business, healthcare, law, engineering, education, and more. Their work ethic was inspiring, and their brilliance was unmatched. Yet, what stood out to her was that this excellence often went unrecognized. Their stories remained largely untold, hidden like diamonds and rare minerals waiting to be discovered. It became clear that there was a gap to fill—a need to shine a light on these remarkable individuals and their achievements.</p>
@@ -50,6 +52,7 @@ $posts = [
         "title" => "Ankara Carnival",
         "date"=> "January 6, 2025",
         "category"=> "Environmental",
+        "image"=> "/assets/ankara-festival.png",
         "body" => "<p>On September 14th 2024, the Living Hope Alliance Church hosted the 1st edition of the Ankara Carnival Day 2024. An event aimed at putting to light the beauty of “Ankara” (Ann-Kah-Rah) and the “Adire” (Ah-Dee-Reh).</p>
 
                     <h5>Origin of Ankara</h5>

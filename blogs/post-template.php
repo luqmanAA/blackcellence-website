@@ -30,7 +30,7 @@ include __DIR__ . '/../includes/header.php';
                     </div>
                     <!-- <div class="post-author">
                         <div class="author-img">
-                            <img src="https://cdn.prod.website-files.com/66236bb750d12e7540854b5f/66236d70ae7d775bcaa1373f_blog-author-01.jpg" loading="lazy" alt="Author Image" class="author-image"/>
+                            <img src="<?php echo $post['image']; ?>" loading="lazy" alt="Author Image" class="author-image"/>
                         </div>
                         <div class="author-name">
                             <div class="body-small">By</div>
@@ -44,7 +44,7 @@ include __DIR__ . '/../includes/header.php';
             <section class="post-main">
                 <div class="w-layout-blockcontainer container w-container">
                     <div class="post-maini-mg">
-                        <img src="https://cdn.prod.website-files.com/66236bb750d12e7540854b5f/6623747694d863895b15c69c_blog-main-01.jpg" loading="eager" alt="Post Main Image" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, 96vw" srcset="https://cdn.prod.website-files.com/66236bb750d12e7540854b5f/6623747694d863895b15c69c_blog-main-01-p-500.jpg 500w, https://cdn.prod.website-files.com/66236bb750d12e7540854b5f/6623747694d863895b15c69c_blog-main-01-p-800.jpg 800w, https://cdn.prod.website-files.com/66236bb750d12e7540854b5f/6623747694d863895b15c69c_blog-main-01-p-1080.jpg 1080w, https://cdn.prod.website-files.com/66236bb750d12e7540854b5f/6623747694d863895b15c69c_blog-main-01.jpg 1296w" class="post-main-image"/>
+                        <img src="<?php echo $post['image']; ?>" loading="eager" alt="Post Main Image" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, 96vw" srcset="<?php echo $post['image']; ?> 500w, <?php echo $post['image']; ?> 800w, <?php echo $post['image']; ?> 1080w, <?php echo $post['image']; ?> 1296w" class="post-main-image"/>
                     </div>
                     <div class="post-details w-richtext">
                         <?php echo $post['body']; ?>

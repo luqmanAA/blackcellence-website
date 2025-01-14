@@ -3,7 +3,7 @@ $programs = [
     "building-financial-futures-empowering-our-community-through-financial-literacy" => [
         "title" => "Building Financial Futures: Empowering Our Community Through Financial Literacy",
         "category"=> "Community",
-        "image"=> "/assets/education.png",
+        "image"=> "/assets/community.png",
         "body" => "
                 <h3>Overview</h3>
                 <p>This program aims to enhance financial literacy within the community, providing individuals with the knowledge and skills necessary to make informed financial decisions. By offering workshops, resources, and support, we aim to empower residents to take control of their financial futures.</p>

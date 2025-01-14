@@ -55,8 +55,13 @@ include __DIR__ . '/../includes/header.php';
                             <div class="event-info-wrap">
                                 <div class="event-info-block">
                                     <div class="date-title">
+                                        <div>Ticket Price: <?php echo $event['price'] ?></div>
+                                    </div>
+                                </div>
+                                <div class="event-info-block">
+                                    <div class="date-title">
                                         <img src="/assets/date.svg" loading="lazy" alt="Icon"/>
-                                        <div>Date &amp;Time</div>
+                                        <div>Date & Time</div>
                                     </div>
                                     <div class="date-wrap">
                                         <div><?php echo $event['date'] ?></div>
@@ -66,7 +71,7 @@ include __DIR__ . '/../includes/header.php';
                                 <div class="event-info-block location">
                                     <div class="location-title">
                                         <img src="/assets/location-lite.svg" loading="lazy" alt="Icon"/>
-                                        <div>Loaction</div>
+                                        <div>Venue</div>
                                     </div>
                                     <div class="location-text"><?php echo $event['venue'] ?></div>
                                 </div>

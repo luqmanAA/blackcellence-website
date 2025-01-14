@@ -12,15 +12,21 @@ if (preg_match('/^volunteers\/([a-zA-Z0-9-]+)$/', $request_uri, $matches)) {
     exit;
 }
 
-if (preg_match('/^blogs\/([a-zA-Z0-9-]+)$/', $request_uri, $matches)) {
+if (preg_match('/^news\/([a-zA-Z0-9-]+)$/', $request_uri, $matches)) {
     $_GET['post'] = $matches[1];
-    include "blogs/post-template.php";
+    include "news/post-template.php";
     exit;
 }
 
 if (preg_match('/^programs\/([a-zA-Z0-9-]+)$/', $request_uri, $matches)) {
     $_GET['program'] = $matches[1];
     include "programs/program-template.php";
+    exit;
+}
+
+if (preg_match('/^events\/([a-zA-Z0-9-]+)$/', $request_uri, $matches)) {
+    $_GET['event'] = $matches[1];
+    include "events/single-event.php";
     exit;
 }
 

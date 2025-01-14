@@ -27,9 +27,9 @@
                             <a href="/contact" class="footer-link">Contact us</a>
                         </div>
                         <div class="footer-menu">
-                            <a href="#" class="footer-link">Events</a>
+                            <a href="/events" class="footer-link">Events</a>
                             <a href="/volunteers" class="footer-link">Volunteers</a>
-                            <a href="#" class="footer-link">News</a>
+                            <a href="/news" class="footer-link">News</a>
                             <a href="#" class="footer-link">Gallery</a>
                         </div>
                         <div class="footer-menu">

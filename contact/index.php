@@ -1,6 +1,7 @@
 <?php 
     $pageTitle = "Contact Us";
     include '../includes/header.php';
+    session_start();
  ?>
         <div class="page-title">
             <div class="w-layout-blockcontainer container w-container">
@@ -16,7 +17,19 @@
                 <div class="w-layout-blockcontainer container w-container">
                     <div class="contact-wrap">
                         <div class="contact-form form">
-                            <form id="wf-form-contact-form" name="wf-form-Contact-Form-2" data-name="Contact Form" method="get" data-wf-page-id="6625e8afe73234dba45044a5" data-wf-element-id="1ac29adc-50c2-228b-231d-a355e76e284d">
+                            
+                            <?php
+                                // Display error or success message from session if set
+                                if (isset($_SESSION['error'])) {
+                                    echo "<div style='color: red;'>" . $_SESSION['error'] . "</div>";
+                                    unset($_SESSION['error']);  // Clear the error after displaying it
+                                } elseif (isset($_SESSION['success'])) {
+                                    echo "<div style='color: green;'>" . $_SESSION['success'] . "</div>";
+                                    unset($_SESSION['success']);  // Clear the success message after displaying it
+                                }
+                            ?>
+
+                            <form id="wf-form-contact-form" name="wf-form-Contact-Form-2" data-name="Contact Form" method="post" action="submit.php">
                                 <div class="field-wrap">
                                     <input class="input w-node-_1ac29adc-50c2-228b-231d-a355e76e284f-a45044a5 w-input" maxlength="256" name="name" data-name="Name" placeholder="Full name" type="text" id="name" required=""/>
                                     <input class="input email w-input" maxlength="256" name="email" data-name="Email" placeholder="Email address" type="email" id="email" required=""/>

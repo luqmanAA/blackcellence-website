@@ -7,7 +7,7 @@ $postID = isset($_GET['post']) ? $_GET['post'] : null;
 if ($postID && isset($posts[$postID])) {
     $post = $posts[$postID];
 } else {
-    header("Location: /"); // Redirect if member not found
+    header("Location: /news"); // Redirect if member not found
     exit;
 }
 

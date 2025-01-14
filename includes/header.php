@@ -34,8 +34,8 @@
                         </a>
                         <nav role="navigation" class="nav-menu w-nav-menu">
                             <a href="/about-us" class="nav-link">About us</a>
-                            <a href="#" class="nav-link">Events</a>
-                            <a href="#" class="nav-link">News</a>
+                            <a href="/events" class="nav-link">Events</a>
+                            <a href="/news" class="nav-link">News</a>
                             <a href="/donate" class="nav-link">Donate</a>
                             <a href="/contact" class="nav-link">Contact</a>
                             <a data-w-id="b8d65605-a220-542d-039c-619f4da0b2b0" href="/donate" class="header-btn mobile w-inline-block">

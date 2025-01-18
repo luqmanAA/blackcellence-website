@@ -7,7 +7,7 @@
                             <h1 class="hero-title">Make your mark in the community by joining us as a black excellence supporter</h1>
                             <p class="hero-text">Our mission is to celebrate the success of Black & Afro-Indigenous People in our community.</p>
                             <div class="hero-btn">
-                                <a href="#" class="yellow-btn w-inline-block">
+                                <a href="/become-a-volunteer" class="yellow-btn w-inline-block">
                                     <div>Join us</div>
                                     <img src="/assets/arrow.svg" loading="lazy" alt="Arrow" class="arrow"/>
                                 </a>

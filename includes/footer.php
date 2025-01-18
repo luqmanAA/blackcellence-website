@@ -15,7 +15,7 @@
                                 <a href="mailto:info@blackcellencenetwork.com" class="footer-link">info@blackcellencenetwork.com</a>
                             </div>
                         </div>
-                        <a href="#" class="yellow-btn w-inline-block">
+                        <a href="/become-a-volunteer" class="yellow-btn w-inline-block">
                             <div>Join us</div>
                             <img src="/assets/ic-arrow.svg" loading="lazy" alt="Arrow" class="arrow"/>
                         </a>

@@ -53,6 +53,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     curl_setopt($ch, CURLOPT_POST, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, $jsonData);
 
+    // curl_setopt($ch, CURLOPT_VERBOSE, true);
+
     // Execute API request
     $response = curl_exec($ch);
     $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);

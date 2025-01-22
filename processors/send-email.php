@@ -1,6 +1,14 @@
 <?php
 
-require '../vendor/autoload.php';
+session_start();
+
+require '../env-loader.php';
+
+loadEnv();
+
+$composerHome = getenv('COMPOSER_HOME') . '/vendor/autoload.php';
+require $composerHome;
+
 use PHPMailer\PHPMailer\PHPMailer;
 // use PHPMailer\PHPMailer\Exception;
 
@@ -8,17 +16,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 // require 'PHPMailer/src/PHPMailer.php';
 // require 'PHPMailer/src/SMTP.php';
 
-require '../env-loader.php';
-
-loadEnv();
-
-session_start();
-
 function sendEmail($to, $subject, $body, $reply_to, $redirect_location='/') {
     $mail = new PHPMailer;
     $FROM_EMAIL = getenv('FROM_EMAIL');
-    error_log("in send mail".getenv('FROM_EMAIL'));
-
     try {
         $mail->isSMTP();
         $mail->Host = getenv('EMAIL_HOST'); // e.g., smtp.gmail.com
@@ -27,8 +27,8 @@ function sendEmail($to, $subject, $body, $reply_to, $redirect_location='/') {
         $mail->Password = getenv('EMAIL_PASSWORD');   // Replace with your email password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = getenv('EMAIL_PORT') ?? 587;
-        $mail->SMTPDebug = 2;
-        $mail->Debugoutput = 'error_log';
+        // $mail->SMTPDebug = 2;
+        // $mail->Debugoutput = 'error_log';
 
         $mail->setFrom($FROM_EMAIL, 'Volunteer Request');
         $mail->addAddress($to);
@@ -36,7 +36,6 @@ function sendEmail($to, $subject, $body, $reply_to, $redirect_location='/') {
 
         $mail->Subject = $subject;
         $mail->Body = $body;
-        error_log("email port".getenv('EMAIL_PORT') );
 
         // $mail->send();
         if ($mail->send()) {

@@ -29,7 +29,7 @@
                                 }
                             ?>
 
-                            <form id="wf-form-contact-form" name="wf-form-Contact-Form-2" data-name="Contact Form" method="post" action="submit.php">
+                            <form id="wf-form-contact-form" name="wf-form-Contact-Form-2" data-name="Contact Form" method="post" action="/submit.php">
                                 <div class="field-wrap">
                                     <input class="input w-node-_1ac29adc-50c2-228b-231d-a355e76e284f-a45044a5 w-input" maxlength="256" name="name" data-name="Name" placeholder="Full name" type="text" id="name" required=""/>
                                     <input class="input email w-input" maxlength="256" name="email" data-name="Email" placeholder="Email address" type="email" id="email" required=""/>

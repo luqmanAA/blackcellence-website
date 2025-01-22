@@ -27,8 +27,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $firstName = $nameParts[0]; // First word is first name
     $lastName = isset($nameParts[1]) ? $nameParts[1] : ""; // Remaining is last name
 
+    // Convert email to lowercase and hash it using MD5 (Mailchimp API requirement)
+    $subscriberHash = md5(strtolower($email));
+
     // Mailchimp API URL
-    $url = "https://$dataCenter.api.mailchimp.com/3.0/lists/$mailchimpAudienceKey/members/";
+    $url = "https://$dataCenter.api.mailchimp.com/3.0/lists/$mailchimpAudienceKey/members/$subscriberHash";
 
     // Prepare subscriber data
     $data = [
@@ -50,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     curl_setopt($ch, CURLOPT_USERPWD, "user:$mailchimpAPIKey");
     curl_setopt($ch, CURLOPT_HTTPHEADER, ["Content-Type: application/json"]);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
     curl_setopt($ch, CURLOPT_POSTFIELDS, $jsonData);
 
     // curl_setopt($ch, CURLOPT_VERBOSE, true);
@@ -67,6 +70,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit();
     } else {
         $_SESSION['error'] = "Error submitting the form.";  // Store error message
+        // $errorResponse = json_decode($response, true);
+        // $errorMessage = isset($errorResponse['detail']) ? $errorResponse['detail'] : "Unknown error occurred.";
+        // error_log("Error: " . $errorMessage);
         header("Location: $redirect_location");  // Redirect back to the form page
         exit();
     }

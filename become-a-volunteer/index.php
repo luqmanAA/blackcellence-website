@@ -1,4 +1,8 @@
-<?php include '../includes/header.php'; ?>
+<?php 
+    $pageTitle = "Join Our Team";
+    include '../includes/header.php';
+    session_start();
+ ?>
         <div class="page-title">
             <div class="w-layout-blockcontainer container w-container">
                 <div class="sub-title">
@@ -13,7 +17,19 @@
                 <div class="w-layout-blockcontainer container w-container">
                     <div class="vf-wrap">
                         <div class="contact-form form">
-                            <form method="post" onsubmit="return validateCheckboxes();">
+
+                            <?php
+                                // Display error or success message from session if set
+                                if (isset($_SESSION['error'])) {
+                                    echo "<div style='color: red;'>" . $_SESSION['error'] . "</div>";
+                                    unset($_SESSION['error']);  // Clear the error after displaying it
+                                } elseif (isset($_SESSION['success'])) {
+                                    echo "<div style='color: green;'>" . $_SESSION['success'] . "</div>";
+                                    unset($_SESSION['success']);  // Clear the success message after displaying it
+                                }
+                            ?>
+
+                            <form method="post" action="/processors/process.php" onsubmit="return validateCheckboxes();">
                                 <div class="field-wrap">
                                     <input class="input w-node-_3b474e04-5fdb-d502-5ddc-1da8eda59d20-6e632834 w-input" maxlength="256" name="Name" data-name="Name" placeholder="Full Name" type="text" id="name" required=""/>
                                     <input class="input email w-input" maxlength="256" name="Email" data-name="Email" placeholder="Email address" type="email" id="email" required=""/>

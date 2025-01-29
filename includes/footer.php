@@ -23,7 +23,7 @@
                     <div class="footer-right">
                         <div class="footer-menu">
                             <a href="/about-us" class="footer-link">About us</a>
-                            <a href="/donate" class="footer-link">Donate</a>
+                            <a href="https://www.paypal.com/donate/?hosted_button_id=64W84AK8BQGFC" class="footer-link">Donate</a>
                             <a href="/contact" class="footer-link">Contact us</a>
                         </div>
                         <div class="footer-menu">

@@ -36,14 +36,14 @@
                             <a href="/about-us" class="nav-link">About us</a>
                             <a href="/events" class="nav-link">Events</a>
                             <a href="/news" class="nav-link">News</a>
-                            <a href="/donate" class="nav-link">Donate</a>
+                            <a href="https://www.paypal.com/donate/?hosted_button_id=64W84AK8BQGFC" class="nav-link">Donate</a>
                             <a href="/contact" class="nav-link">Contact</a>
                             <a data-w-id="b8d65605-a220-542d-039c-619f4da0b2b0" href="/donate" class="header-btn mobile w-inline-block">
                                 <div>Donate Now</div>
                                 <img src="/assets/arrow.svg" loading="lazy" alt="Arrow" class="arrow"/>
                             </a>
                         </nav>
-                        <a data-w-id="b8d65605-a220-542d-039c-619f4da0b2b4" href="/donate" class="header-btn w-inline-block">
+                        <a data-w-id="b8d65605-a220-542d-039c-619f4da0b2b4" href="https://www.paypal.com/donate/?hosted_button_id=64W84AK8BQGFC" class="header-btn w-inline-block">
                             <div>Donate Now</div>
                             <img src="/assets/arrow.svg" loading="lazy" alt="Arrow" class="arrow"/>
                         </a>

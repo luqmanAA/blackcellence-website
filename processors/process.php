@@ -15,11 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     $areas = isset($_POST['scope']) ? implode(", ", $_POST['scope']) : 'None selected';
     
-    $to = "lukman@branderah.com"; // Replace with the target email
     $subject = "New Volunteer Submission";
-    $headers = "From: info@blackcellencenetwork.com\r\n"; // Replace with your email
-    $headers .= "Reply-To: $email\r\n";
-    $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
     $body = "Name: $name\n";
     $body .= "Email: $email\n";
@@ -29,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $body .= "Verification: $verification\n";
     $body .= "Consent: $consent\n";
 
-    sendEmail($to, $subject, $body, $email, $redirect_location);
+    sendEmail($subject, $body, $email, $redirect_location);
 
 } else {
     // Redirect back if accessed directly

@@ -16,12 +16,14 @@ use PHPMailer\PHPMailer\PHPMailer;
 // require 'PHPMailer/src/PHPMailer.php';
 // require 'PHPMailer/src/SMTP.php';
 
-function sendEmail($to, $subject, $body, $reply_to, $redirect_location='/') {
+function sendEmail($subject, $body, $reply_to, $redirect_location='/') {
     $mail = new PHPMailer;
     $FROM_EMAIL = getenv('FROM_EMAIL');
+    $TO_EMAIL = getenv('TO_EMAIL');
     try {
         $mail->isSMTP();
         $mail->Host = getenv('EMAIL_HOST'); // e.g., smtp.gmail.com
+        $mail->Helo = 'blackcellence.com';
         $mail->SMTPAuth = true;
         $mail->Username = getenv('EMAIL_USERNAME'); // 'your-email@example.com' Replace with your email
         $mail->Password = getenv('EMAIL_PASSWORD');   // Replace with your email password
@@ -31,7 +33,7 @@ function sendEmail($to, $subject, $body, $reply_to, $redirect_location='/') {
         // $mail->Debugoutput = 'error_log';
 
         $mail->setFrom($FROM_EMAIL, 'Volunteer Request');
-        $mail->addAddress($to);
+        $mail->addAddress($TO_EMAIL);
         $mail->addReplyTo($reply_to);
 
         $mail->Subject = $subject;
@@ -42,7 +44,7 @@ function sendEmail($to, $subject, $body, $reply_to, $redirect_location='/') {
             $_SESSION['success'] = "Thank you for your submission. We will contact you soon.";  // Store success message
             header("Location: $redirect_location");  // Redirect back to the form page
             exit();
-            echo 'Mailer Error: ' . $mail->ErrorInfo;
+            // echo 'Mailer Error: ' . $mail->ErrorInfo;
         } else {
             error_log($mail->ErrorInfo);
             $_SESSION['error'] = "Sorry, there was an error.";  // Store error message

@@ -17,15 +17,15 @@
                 <div class="w-layout-blockcontainer container w-container">
                     <div class="vf-wrap">
                         <div class="contact-form form">
-                            <form id="donation-form" name="donation-Form" data-name="Donation Form" method="post" data-wf-page-id="66277b0994fb11e99302d6db" data-wf-element-id="896e42b2-8908-6ec4-c8c8-52cb1f01418a">
+                            <form id="donation-form" name="donation-Form" data-name="Donation Form" method="post" action="/donate/process_donation.php">
                                 <div class="field-wrap">
-                                    <input class="input w-node-_896e42b2-8908-6ec4-c8c8-52cb1f01418c-9302d6db w-input" maxlength="256" name="Name" data-name="Name" placeholder="Full Name" type="text" id="Name-3" required=""/>
-                                    <input class="input email w-input" maxlength="256" name="Email" data-name="Email" placeholder="Email address" type="email" id="email" required=""/>
+                                    <input class="input w-node-_896e42b2-8908-6ec4-c8c8-52cb1f01418c-9302d6db w-input" maxlength="256" name="name" data-name="Name" placeholder="Full Name" type="text" id="Name-3" required=""/>
+                                    <input class="input email w-input" maxlength="256" name="email" data-name="Email" placeholder="Email address" type="email" id="email" required=""/>
                                     <select id="payment-method" name="Payment-Method" data-name="Payment Method" class="input payment w-node-_1062751e-829a-1b36-ee80-49c1f7c03410-9302d6db w-select">
                                         <option value="">Payment Method</option>
                                         <option selected value="PayPal">PayPal</option>
                                     </select>
-                                    <select id="donation-amount" name="Donation-Amount" data-name="Donation Amount" class="input amount w-node-d15f6694-e4ee-55ee-1f64-506c9fc943ac-9302d6db w-select">
+                                    <select id="donation-amount" name="amount" data-name="Donation Amount" class="input amount w-node-d15f6694-e4ee-55ee-1f64-506c9fc943ac-9302d6db w-select">
                                         <option value="">Donation Amount</option>
                                         <option value="10.00$">10.00$</option>
                                         <option value="25.00$">25.00$</option>

@@ -12,6 +12,9 @@ if ($eventID && isset($events[$eventID])) {
 }
 
 $pageTitle = $event['theme']; 
+
+$include_paypal_script = true;
+
 include __DIR__ . '/../includes/header.php';
 ?>
 
@@ -42,14 +45,14 @@ include __DIR__ . '/../includes/header.php';
                                 <?php echo $event['body'] ?>
                                 </div>
                             </div>
-                            <div class="button-wrap">
+                            <!-- <div class="button-wrap">
                                 <div class="event-btn">
                                     <a data-w-id="81882bf2-ef11-7a17-4ef1-154f51e9af41" href="/contact-us" class="primary-btn w-inline-block">
                                         <div>Register Now</div>
                                         <img src="/assets/arrow-white.svg" loading="lazy" style="filter:invert(0%)" alt="Arrow" class="arrow"/>
                                     </a>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="event-right">
                             <div class="event-info-wrap">
@@ -76,10 +79,11 @@ include __DIR__ . '/../includes/header.php';
                                     <div class="location-text"><?php echo $event['venue'] ?></div>
                                 </div>
                             </div>
-                            <a data-w-id="2614d191-d5c3-cc30-5aca-31073ee3ac94" href="/contact-us" class="primary-btn w-inline-block">
+                            <!-- <a data-w-id="2614d191-d5c3-cc30-5aca-31073ee3ac94" href="/contact-us" class="primary-btn w-inline-block">
                                 <div>Register Now</div>
                                 <img src="/assets/arrow-white.svg" loading="lazy" style="filter:invert(0%)" alt="Arrow" class="arrow"/>
-                            </a>
+                            </a> -->
+                            <div id="paypal-container-RC7FPHKYJAA6J" class="event-info-block location"></div>
                         </div>
                     </div>
                 </div>

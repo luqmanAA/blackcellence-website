@@ -51,7 +51,7 @@ include __DIR__ . '/../includes/header.php';
                                         <img src="/assets/ic-mail-black.svg" loading="lazy" alt="Icon"/>
                                         <div>Email:</div>
                                     </div>
-                                    <a href="mailto:ceo@blackcellencenetwork.com"><?php echo $member['email']; ?></a>
+                                    <a href="mailto:<?php echo $member['email']; ?>"><?php echo $member['email']; ?></a>
                                 </div>
                             </div>
                         </div>

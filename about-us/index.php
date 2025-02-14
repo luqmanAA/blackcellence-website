@@ -43,21 +43,21 @@
                                 <h5 class="creating-title">01</h5>
                                 <div class="creating-text">
                                     <h5 class="creating-title">Celebrating Blackcellence Achievements</h5>
-                                    <p class="single-text">Using our platform allows for notable successes and achievements of black people in the community while giving the opportunity for the community to celebrate its champions.</p>
+                                    <p class="single-text mt-10">Using our platform allows for notable successes and achievements of black people in the community while giving the opportunity for the community to celebrate its champions.</p>
                                 </div>
                             </div>
                             <div class="creating-info">
                                 <h5 class="creating-title">02</h5>
                                 <div class="creating-text">
                                     <h5 class="creating-title">Engage in and Support Community Organizational Partnerships</h5>
-                                    <p class="single-text">Actively participating with community members and their Initiatives. We use this as an avenue to build new links and networks within our community with like-minded individuals and organizations.</p>
+                                    <p class="single-text mt-10">Actively participating with community members and their Initiatives. We use this as an avenue to build new links and networks within our community with like-minded individuals and organizations.</p>
                                 </div>
                             </div>
                             <div class="creating-info">
                                 <h5 class="creating-title">03</h5>
                                 <div class="creating-text">
                                     <h5 class="creating-title">Creating and Supporting Meaningful Connections to foster growthwithin our Community</h5>
-                                    <p class="single-text">Engaging with like minded organizations to show support and assist to contribute to the initiatives they bring into our community here in Saskatchewan.</p>
+                                    <p class="single-text mt-10">Engaging with like minded organizations to show support and assist to contribute to the initiatives they bring into our community here in Saskatchewan.</p>
                                 </div>
                             </div>
                         </div>

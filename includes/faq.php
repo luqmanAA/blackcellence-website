@@ -88,7 +88,7 @@
                         </div>
                         <div class="faq-right">
                             <div class="faq-img">
-                                <img src="/assets/faq-01.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 47vw, (max-width: 991px) 48vw, 23vw" srcset="/assets/faq-01.png 500w, assets/faq-01.png 618w" alt="FAQ Image" class="faq-image"/>
+                                <img src="/assets/faq-01.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 47vw, (max-width: 991px) 48vw, 23vw" srcset="/assets/faq-01.png 500w, /assets/faq-01.png 618w" alt="FAQ Image" class="faq-image"/>
                             </div>
                             <div class="faq-img-wrap">
                                 <!-- <div class="faq-block">
@@ -106,7 +106,7 @@
                                         <img src="/assets/ic-hygiene-kit.svg" loading="lazy" alt="Icon" class="faq-icon"/>
                                         <h5 class="faq-info-title">Making a difference in Saskatchewan. Help us make a difference</h5>
                                     </div>
-                                    <a data-w-id="1ba9f017-1354-621d-c7e2-8758d780c1cd" href="#" class="secondary-btn white w-inline-block">
+                                    <a data-w-id="1ba9f017-1354-621d-c7e2-8758d780c1cd" href="https://www.paypal.com/donate/?hosted_button_id=64W84AK8BQGFC" target="_blank" class="secondary-btn white w-inline-block">
                                         <div>Donate Now</div>
                                         <img src="/assets/arrow-white.svg" loading="lazy" alt="Arrow" class="arrow"/>
                                     </a>

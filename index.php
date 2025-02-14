@@ -65,7 +65,7 @@
                                 <p>At Blackcellence Network, we believe in celebrating Black Excellence as well as showcasing the achievements and immense contributions of notable members of the Saskatchewan community.</p>
                                 <p class="single-text">We also partner with community based organizations to give back to each year at our flagship event that is the Blackcellence Gala. Collaborating with a community orientated beneficiary to whom our proceeds are donated to ensure our efforts are being poured back into our community here in Saskatchewan.</p>
                                 <div class="button-wrap">
-                                    <a data-w-id="dda0d075-2646-3a49-21ec-2887f49068c6" href="/about" class="primary-btn w-inline-block">
+                                    <a data-w-id="dda0d075-2646-3a49-21ec-2887f49068c6" href="/about-us" class="primary-btn w-inline-block">
                                         <div>About us</div>
                                         <img src="/assets/arrow-white.svg" loading="lazy" style="filter:invert(0%)" alt="Arrow" class="arrow"/>
                                     </a>
@@ -133,7 +133,7 @@
                                 </div>
                             </div>
                             <div class="button-wrap">
-                                <a data-w-id="da9f0180-0502-509e-36c8-ab81713e90ba" href="/causes" class="primary-btn w-inline-block">
+                                <a data-w-id="da9f0180-0502-509e-36c8-ab81713e90ba" href="/news/letter-from-ceo" class="primary-btn w-inline-block">
                                     <div>Explore More</div>
                                     <img src="/assets/arrow-white.svg" loading="lazy" style="filter:invert(0%)" alt="Arrow" class="arrow"/>
                                 </a>
@@ -157,7 +157,7 @@
                                             <div class="location-icon">Details coming soon</div>
                                         </div>
                                         <div class="button-wrap">
-                                            <a data-w-id="4a7ef5b5-cbd3-5b18-bb8f-2703c0878a07" href="/contact-us" class="primary-btn w-inline-block">
+                                            <a data-w-id="4a7ef5b5-cbd3-5b18-bb8f-2703c0878a07" href="#" class="primary-btn w-inline-block">
                                                 <div>Register Now</div>
                                                 <img src="/assets/arrow-white.svg" loading="lazy" style="filter:invert(0%)" alt="Arrow" class="arrow"/>
                                             </a>

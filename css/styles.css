@@ -4072,7 +4072,7 @@ html {
     object-fit: cover;
     width: 100%;
     min-height: 450px;
-    max-height: 450px;
+    max-height: 550px;
   }
   
   .event-details {

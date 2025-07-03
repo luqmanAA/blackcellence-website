@@ -62,14 +62,14 @@
         <script src="/js/validations.js" type="text/javascript"></script>
         <script src="/js/scripts.js" type="text/javascript"></script>
 
-        <?php if (!empty($include_paypal_script)) : ?>
+        <!-- <?php if (!empty($include_paypal_script)) : ?>
             <script src="https://www.paypal.com/sdk/js?client-id=BAALF_lZLwaSmFtU9xHmR9uDk_3zVBuPIgTylukpCYOZ2GyfpKs2MVm08KcjMI1ara8pQIBbZ68eO6KQss&components=hosted-buttons&disable-funding=venmo&currency=CAD"></script>
             <script>
                 paypal.HostedButtons({
                     hostedButtonId: "RC7FPHKYJAA6J",
                 }).render("#paypal-container-RC7FPHKYJAA6J")
             </script>
-        <?php endif; ?>
+        <?php endif; ?> -->
 
     </body>
 </html>

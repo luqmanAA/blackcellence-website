@@ -86,6 +86,11 @@ include __DIR__ . '/../includes/header.php';
                             <!-- <div id="paypal-container-<?php echo $event['paypalContainer'] ?>" class="event-info-block location"></div> -->
                              <?php foreach ($event['paypalProducts'] as $id): ?>
                                 <div id="paypal-container-<?php echo htmlspecialchars($id); ?>" class="event-info-block location"></div>
+                                <script>
+                                    paypal.HostedButtons({
+                                        hostedButtonId: "<?php echo htmlspecialchars($id); ?>",
+                                    }).render("#paypal-container-<?php echo htmlspecialchars($id); ?>")
+                                </script>
                             <?php endforeach; ?>
                         </div>
                     </div>

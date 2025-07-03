@@ -22,6 +22,9 @@
                 ("ontouchstart"in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
             }(window, document);
         </script>
+        <script
+            src="https://www.paypal.com/sdk/js?client-id=BAALF_lZLwaSmFtU9xHmR9uDk_3zVBuPIgTylukpCYOZ2GyfpKs2MVm08KcjMI1ara8pQIBbZ68eO6KQss&components=hosted-buttons&disable-funding=venmo&currency=CAD">
+        </script>
         <link href="/assets/logo.png" rel="shortcut icon" type="image/x-icon"/>
     </head>
     <body>

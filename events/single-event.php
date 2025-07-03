@@ -32,7 +32,7 @@ include __DIR__ . '/../includes/header.php';
                 <div class="w-layout-blockcontainer container w-container">
                     <div class="event-wrap">
                         <div class="event-left">
-                            <div class="event-main-img">
+                            <div class="event-main-img mb-50">
                                 <img src="<?php echo $event['image'] ?>" loading="eager" alt="Event Main Image" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 65vw, 66vw" srcset="<?php echo $event['image'] ?> 500w, <?php echo $event['image'] ?> 800w, <?php echo $event['image'] ?> 900w" class="event-main-image"/>
                             </div>
                             <!-- <div class="event-details w-richtext">
@@ -40,7 +40,7 @@ include __DIR__ . '/../includes/header.php';
                                 <p>Our events are designed to address pressing issues, showcase innovative solutions, and provide opportunities for collaboration and action. From workshops and conferences to fundraisers and volunteer initiatives, each event is carefully curated to align with our mission and values, while also catering to the diverse interests and needs of our audience.</p>
                             </div> -->
                             <div class="objective">
-                                <h3 class="objective-title">Promise of Event</h3>
+                                <!-- <h3 class="objective-title">Promise of Event</h3> -->
                                 <div class="event-info w-richtext">
                                 <?php echo $event['body'] ?>
                                 </div>
@@ -83,7 +83,10 @@ include __DIR__ . '/../includes/header.php';
                                 <div>Register Now</div>
                                 <img src="/assets/arrow-white.svg" loading="lazy" style="filter:invert(0%)" alt="Arrow" class="arrow"/>
                             </a> -->
-                            <div id="paypal-container-RC7FPHKYJAA6J" class="event-info-block location"></div>
+                            <!-- <div id="paypal-container-<?php echo $event['paypalContainer'] ?>" class="event-info-block location"></div> -->
+                             <?php foreach ($event['paypalProducts'] as $id): ?>
+                                <div id="paypal-container-<?php echo htmlspecialchars($id); ?>" class="event-info-block location"></div>
+                            <?php endforeach; ?>
                         </div>
                     </div>
                 </div>

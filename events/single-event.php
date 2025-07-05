@@ -22,7 +22,7 @@ include __DIR__ . '/../includes/header.php';
             <div class="w-layout-blockcontainer container w-container">
                 <div class="sub-title">
                     <img src="/assets/sub-title.svg" loading="lazy" alt="Icon"/>
-                    <div>Education</div>
+                    <div><?php echo $event['category'] ?></div>
                 </div>
                 <h1 class="event-main-title"><?php echo $event['theme'] ?></h1>
             </div>

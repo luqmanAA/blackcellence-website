@@ -21,8 +21,8 @@
                                 <div role="listitem" class="event-item w-dyn-item">
                                     <a data-w-id="0d8e7be9-a604-0861-bae9-cfd15b855ca0" href="/events/<?php echo $key ?>" class="event-link w-inline-block">
                                         <div class="event-img">
-                                            <img src="<?php echo $event['image'] ?>" loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="Event Image" sizes="(max-width: 479px) 100vw, (max-width: 767px) 47vw, (max-width: 991px) 46vw, 23vw" srcset="<?php echo $event['image'] ?> 500w, <?php echo $event['image'] ?> 634w" class="event-image"/>
-                                            <div class="event-category">Empowerment</div>
+                                            <img src="<?php echo $event['thumbnail'] ?>" loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="Event Image" sizes="(max-width: 479px) 100vw, (max-width: 767px) 47vw, (max-width: 991px) 46vw, 23vw" srcset="<?php echo $event['image'] ?> 500w, <?php echo $event['image'] ?> 634w" class="event-image"/>
+                                            <div class="event-category"><?php echo $event['category'] ?></div>
                                         </div>
                                         <div class="event-data">
                                             <div class="event-title-wrap">
